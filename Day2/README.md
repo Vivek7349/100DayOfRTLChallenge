@@ -1,6 +1,6 @@
-## D Flip-Flop (DFF)
+# D Flip-Flop (DFF)
 
-A D Flip-Flop (DFF)** is a sequential circuit that captures the **input (`D`)** on the rising edge of the clock and stores it until the next clock cycle. It is widely used in registers, counters, and memory units.
+## A D Flip-Flop (DFF)** is a sequential circuit that captures the **input (`D`)** on the rising edge of the clock and stores it until the next clock cycle. It is widely used in registers, counters, and memory units.
 
 ### D Flip-Flop Truth Table
 | Clock (`clk`) | D | Reset (`rst`) | Output Q | Complement Qb |
