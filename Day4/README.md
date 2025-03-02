@@ -1,11 +1,11 @@
 # 8-bit ALU (Arithmetic Logic Unit)
 
-## 📌 Overview
+##  Overview
 The **`Alu8`** module is an 8-bit Arithmetic Logic Unit (ALU) that performs various arithmetic and logical operations based on the **3-bit `op` code**. The ALU supports **addition, subtraction, bitwise operations, and comparisons**.
 
 ---
 
-## 🔹 **Module Interface**
+##  **Module Interface**
 ### **Port Definitions**
 | **Port Name** | **Size** | **Direction** | **Description** |
 |--------------|---------|--------------|----------------|
@@ -17,7 +17,7 @@ The **`Alu8`** module is an 8-bit Arithmetic Logic Unit (ALU) that performs vari
 
 ---
 
-## 🔹 **Operations Supported**
+##  **Operations Supported**
 The ALU performs different operations based on the **3-bit `op` code**:
 
 | **Opcode (`op`)** | **Operation** | **Description** |
