@@ -27,6 +27,6 @@ The ALU performs different operations based on the **3-bit `op` code**:
 | `010` | `a << b[2:0]` | Left Shift (`a` shifted left by `b` bits) |
 | `011` | `a >> b[2:0]` | Right Shift (`a` shifted right by `b` bits) |
 | `100` | `a & b` | Bitwise AND |
-| `101` | `a '|' b` | Bitwise OR |
+| `101` | `a \| b` | Bitwise OR |
 | `110` | `a ^ b` | Bitwise XOR |
 | `111` | `{7'b0, a == b}` | Comparison (`1` if `a == b`, else `0`) |
